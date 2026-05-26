@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: country
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    # Swagger UI is pointed at the explicit contract to keep the API documentation contract-first.
+    url: /openapi.yaml
